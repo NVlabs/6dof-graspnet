@@ -1,0 +1,52 @@
+# Copyright (c) 2019, NVIDIA CORPORATION.  All rights reserved.
+#
+# NVIDIA CORPORATION and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA CORPORATION is strictly prohibited.
+num_objects_per_batch: 1
+num_grasps_per_object: 64
+npoints: 1024
+occlusion_nclusters: 0
+occlusion_dropout_rate: 0
+depth_noise: 0
+dataset_root_folder: '/code_and_data/data/unified_grasp_data/'
+kl_loss_weight: 0.01
+lr: 0.0001
+num_grasp_clusters: 32
+gpu: '0'
+solver: 'adam'
+logdir: ''
+force_continue: 0
+training_splits: 'train'
+eval_splits: 'test'
+is_training: 1
+
+latent_size: 2
+confidence_weight: 1.
+train_evaluator: 1
+gripper_pc_npoints: -1
+merge_pcs_in_vae_encoder: 0
+ngpus: 1
+init_checkpoint_folder: ''
+allowed_categories: ''
+vae_checkpoint_folder: 'checkpoints/npoints_1024_train_discriminator_0_allowed_categories_BottleBowlboxcylinder_ngpus_1_/tf_output/'
+evaluator_checkpoint_folder: 'checkpoints/npoints_1024_train_discriminator_1_ngpus_8_/tf_output/'
+gpu: 1
+threshold: 0.8
+grasp_selection_mode: 'better_than_threshold_in_sequence'
+delta_z_grasp: 0.02
+delta_z_standoff: -0.08
+delta_z_pickup: 0.40
+rmp_timeout: 20.0 
+rmp_required_error: 0.003
+instance_mode: 0
+num_samples: 200
+clutter: 0
+pointnet_radius: 0.02
+pointnet_nclusters: 128
+model_scale: 1
+use_geometry_sampling: 0
+sample_based_improvement: 1
+num_refine_steps: 20

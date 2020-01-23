@@ -1,0 +1,25 @@
+{
+    "jobDefinition": {
+        "jobDataLocations": [
+           {
+               "mountPoint": "/code_and_data/",
+               "protocol": "NFSV3",
+               "sharePath": "/export/grasps_cvae_drive.cosmos537",
+               "shareHost": "dcg-zfs-04.nvidia.com"
+           }
+        ],
+        "dockerImage": "nvidian_general/ceppner-grasp-recording:WIP",
+        "command": "cp -r rbd /tmp; cd /tmp; nvcc --version; cd ./rbd/bin/linux64; chmod +x NvFlexDemoReleaseCUDA_x64; chmod +x run_flex_on_cluster.py; python run_flex_on_cluster.py GPU YAML --maxproc 1 --logdir LOGDIR; cd /code_and_data/Flex; python flex_aggregate_results.py OUTPUT AGGREGATE_PATH",
+        "clusterId": 425,
+        "description": "Recording grasp executions.",
+        "name": "arsalan-grasp-recording",
+        "portMappings": [],
+        "jobType": "BATCH",
+        "resources": {
+            "systemMemory": "MEMORY",
+            "cpuCores": "GPU",
+            "gpus": "GPU"
+        }
+    }
+}
+
