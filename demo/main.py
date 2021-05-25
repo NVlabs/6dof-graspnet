@@ -26,11 +26,11 @@ def make_parser():
     parser.add_argument(
         '--vae_checkpoint_folder',
         type=str, 
-        default='checkpoints/latent_size_2_ngpus_1_gan_1_confidence_weight_0.1_npoints_1024_num_grasps_per_object_256_train_evaluator_0_')
+        default='checkpoints/ACRONYM_GAN/')
     parser.add_argument(
         '--evaluator_checkpoint_folder', 
         type=str, 
-        default='checkpoints/npoints_1024_train_evaluator_1_allowed_categories__ngpus_8_/'
+        default='checkpoints/ACRONYM_Evaluator/'
     )
     parser.add_argument(
         '--gradient_based_refinement',
