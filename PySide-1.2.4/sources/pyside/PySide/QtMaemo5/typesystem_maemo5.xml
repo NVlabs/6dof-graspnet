@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--
+    This file is part of PySide project.
+    Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+    Contact: PySide team <contact@pyside.org>
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+-->
+<typesystem package="PySide.QtMaemo5">
+  <load-typesystem name="typesystem_gui.xml" generate="no"/>
+
+  <object-type name="QMaemo5AbstractPickSelector">
+    <modify-function signature="widget(QWidget*)">
+      <modify-argument index="return">
+        <parent index="1" action="add"/>
+      </modify-argument>
+    </modify-function>
+  </object-type>
+
+  <object-type name="QMaemo5DatePickSelector"/>
+
+  <object-type name="QMaemo5EditBar">
+     <modify-function signature="addButton(QAbstractButton*)">
+      <modify-argument index="1">
+        <parent index="this" action="add"/>
+      </modify-argument>
+     </modify-function>
+     <modify-function signature="removeButton(QAbstractButton*)">
+      <modify-argument index="1">
+        <parent index="this" action="remove"/>
+      </modify-argument>
+    </modify-function>
+  </object-type>
+
+  <object-type name="QMaemo5InformationBox">
+    <modify-function signature="setWidget(QWidget*)">
+      <modify-argument index="1">
+        <reference-count action="set"/>
+      </modify-argument>
+     </modify-function>
+     <modify-function signature="paintEvent(QPaintEvent*)">
+       <modify-argument index="1" invalidate-after-use="yes"/>
+     </modify-function>
+     <modify-function signature="showEvent(QShowEvent*)">
+       <modify-argument index="1" invalidate-after-use="yes"/>
+    </modify-function>
+  </object-type>
+
+  <object-type name="QMaemo5ListPickSelector">
+    <modify-function signature="setModel(QAbstractItemModel*)">
+      <modify-argument index="1">
+        <reference-count action="set"/>
+      </modify-argument>
+    </modify-function>
+
+    <modify-function signature="widget(QWidget*)">
+      <modify-argument index="return">
+        <parent index="1" action="add"/>
+      </modify-argument>
+    </modify-function>
+  </object-type>
+
+  <object-type name="QMaemo5TimePickSelector"/>
+  <object-type name="QMaemo5ValueButton">
+    <enum-type name="ValueLayout"/>
+    <modify-function signature="setPickSelector(QMaemo5AbstractPickSelector*)">
+      <modify-argument index="1">
+        <parent index="this" action="add"/>
+      </modify-argument>
+    </modify-function>
+
+    <modify-function signature="paintEvent(QPaintEvent*)">
+        <modify-argument index="1" invalidate-after-use="yes"/>
+    </modify-function>
+  </object-type>
+
+</typesystem>

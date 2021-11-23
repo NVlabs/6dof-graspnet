@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% set title = 'Overview' %}
+{% block body %}
+<div class="section">
+  <h1>{{ project }} {{ version }}</h1>
+
+    <p>{{ project }} is a plugin (front-end) for Generator Runner. It generates bindings for C++ libraries using CPython source code.</p>
+
+  <h2>Documentation</h2>
+  <table class="contentstable" align="center" style="margin-left: 30px"><tr>
+    <td width="50%">
+     <p class="biglink"><a class="biglink" href="{{ pathto("contents") }}">Contents</a><br/>
+         <span class="linkdescr">for a complete overview</span></p>
+     <p class="biglink"><a class="biglink" href="{{ pathto("faq") }}">FAQ</a><br/>
+         <span class="linkdescr">answers for frequent asked questions</span></p>
+     <p class="biglink"><a class="biglink" href="{{ pathto("commandlineoptions") }}">Command line options</a><br/>
+         <span class="linkdescr">explains the few flags used to change {{ project }} behaviour</span></p>
+     <p class="biglink"><a class="biglink" href="{{ pathto("typesystemvariables") }}">Type System Variables</a><br/>
+         <span class="linkdescr">describes the type system variables that could be used in user custom code</span></p>
+     <p class="biglink"><a class="biglink" href="{{ pathto("typeconverters") }}">Type Converters</a><br/>
+         <span class="linkdescr">describes how to define type converters</span></p>
+    </td>
+    <td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("codeinjectionsemantics") }}">Code Injection Semantics</a><br/>
+         <span class="linkdescr">explains how custom code injection is interpreted by {{ project }}</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("sequenceprotocol") }}">Sequence Protocol</a><br/>
+         <span class="linkdescr">support for python sequence protocol</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("ownership") }}">Object Ownership</a><br/>
+         <span class="linkdescr">object ownership features</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("wordsofadvice") }}">Words of Advice</a><br/>
+         <span class="linkdescr">Advice for binding developers and users.</span></p>
+    </td></tr>
+  </table>
+</div>
+{% endblock %}

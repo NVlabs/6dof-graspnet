@@ -1,0 +1,6 @@
+#ifndef SHIBOKENCONFIG_H
+#define SHIBOKENCONFIG_H
+
+#define SHIBOKEN_VERSION    "@shiboken_VERSION@"
+
+#endif

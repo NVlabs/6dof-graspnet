@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<typesystem package="shiboken">
+    <custom-type name="PyObject" />
+    <custom-type name="PyType" />
+    <primitive-type name="bool" />
+    <primitive-type name="unsigned long" />
+    <add-function signature="isValid(PyObject*)" return-type="bool">
+        <inject-code>
+            bool isValid = Shiboken::Object::isValid(%1, false);
+            %PYARG_0 = %CONVERTTOPYTHON[bool](isValid);
+        </inject-code>
+    </add-function>
+
+    <add-function signature="invalidate(PyObject*)">
+        <inject-code>
+            Shiboken::Object::invalidate(%1);
+        </inject-code>
+    </add-function>
+
+    <add-function signature="wrapInstance(unsigned long, PyType)" return-type="PyObject*">
+        <inject-code>
+            if (Shiboken::ObjectType::checkType((PyTypeObject*)%2))
+                %PYARG_0 = Shiboken::Object::newObject((SbkObjectType*)%2, (void*)%1, false, true);
+            else
+                PyErr_SetString(PyExc_TypeError, "You need a shiboken-based type.");
+        </inject-code>
+    </add-function>
+
+   <add-function signature="getCppPointer(PyObject*)" return-type="PyObject*">
+        <inject-code>
+            if (Shiboken::Object::checkType(%1)) {
+                std::vector&lt;void*> ptrs = Shiboken::Object::cppPointers((SbkObject*)%1);
+                %PYARG_0 = PyTuple_New(ptrs.size());
+                for (std::size_t i = 0; i &lt; ptrs.size(); ++i)
+                    PyTuple_SET_ITEM(%PYARG_0, i, PyLong_FromVoidPtr(ptrs[i]));
+            } else {
+                PyErr_SetString(PyExc_TypeError, "You need a shiboken-based type.");
+            }
+        </inject-code>
+   </add-function>
+
+   <add-function signature="delete(PyObject*)">
+        <inject-code>
+            if (Shiboken::Object::checkType(%1)) {
+                Shiboken::Object::callCppDestructors((SbkObject*)%1);
+            } else {
+                PyErr_SetString(PyExc_TypeError, "You need a shiboken-based type.");
+            }
+        </inject-code>
+   </add-function>
+
+    <add-function signature="ownedByPython(PyObject*)" return-type="bool">
+        <inject-code>
+            if (Shiboken::Object::checkType(%1)) {
+                bool hasOwnership = Shiboken::Object::hasOwnership((SbkObject*)%1);
+                %PYARG_0 = %CONVERTTOPYTHON[bool](hasOwnership);
+            } else {
+                PyErr_SetString(PyExc_TypeError, "You need a shiboken-based type.");
+            }
+        </inject-code>
+    </add-function>
+
+   <add-function signature="createdByPython(PyObject*)" return-type="bool">
+        <inject-code>
+            if (Shiboken::Object::checkType(%1)) {
+                bool wasCreatedByPython = Shiboken::Object::wasCreatedByPython((SbkObject*)%1);
+                %PYARG_0 = %CONVERTTOPYTHON[bool](wasCreatedByPython);
+            } else {
+                PyErr_SetString(PyExc_TypeError, "You need a shiboken-based type.");
+            }
+        </inject-code>
+   </add-function>
+
+    <add-function signature="dump(PyObject*)" return-type="PyObject*">
+        <inject-code>
+            if (!Shiboken::Object::checkType(%1)) {
+                %PYARG_0 = Shiboken::String::fromCString("Ordinary Python type.");
+            } else {
+                std::string str = Shiboken::Object::info((SbkObject*)%1);
+                %PYARG_0 = Shiboken::String::fromCString(str.c_str());
+            }
+        </inject-code>
+    </add-function>
+
+    <extra-includes>
+        <include file-name="sbkversion.h" location="local"/>
+    </extra-includes>
+    <inject-code position="end">
+        // Add __version__ and __version_info__ attributes to the module
+        PyObject* version = PyTuple_New(5);
+        PyTuple_SET_ITEM(version, 0, PyInt_FromLong(SHIBOKEN_MAJOR_VERSION));
+        PyTuple_SET_ITEM(version, 1, PyInt_FromLong(SHIBOKEN_MINOR_VERSION));
+        PyTuple_SET_ITEM(version, 2, PyInt_FromLong(SHIBOKEN_MICRO_VERSION));
+        PyTuple_SET_ITEM(version, 3, Shiboken::String::fromCString(SHIBOKEN_RELEASE_LEVEL));
+        PyTuple_SET_ITEM(version, 4, PyInt_FromLong(SHIBOKEN_SERIAL));
+        PyModule_AddObject(module, "__version_info__", version);
+        PyModule_AddStringConstant(module, "__version__", SHIBOKEN_VERSION);
+    </inject-code>
+</typesystem>

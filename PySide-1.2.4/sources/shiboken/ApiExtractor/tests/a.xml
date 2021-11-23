@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<WebXML>
+    <document>
+        <class name="A">
+            <description>oi
+                <para>Paragraph number 1</para>
+                <para>Paragraph number 2</para>
+                <para>Paragraph number 3</para>
+            </description>
+        </class>
+    </document>
+</WebXML>

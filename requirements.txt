@@ -1,5 +1,5 @@
 pyrender==0.1.18 
-opencv-python 
+#opencv-python 
 h5py 
 svg.path 
 shapely 
@@ -7,8 +7,8 @@ tqdm
 python-fcl 
 pyyaml 
 easydict 
-PySide 
-mayavi 
+#PySide 
+#mayavi 
 rtree 
 scipy 
 matplotlib

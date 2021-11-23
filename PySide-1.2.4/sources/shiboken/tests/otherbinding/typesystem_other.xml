@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<typesystem package="other">
+    <load-typesystem name="typesystem_sample.xml" generate="no" />
+
+    <object-type name="OtherObjectType" />
+    <object-type name="OtherDerived" />
+    <object-type name="OtherMultipleDerived" />
+
+    <value-type name="ExtendsNoImplicitConversion" />
+    <value-type name="Number" />
+
+    <suppress-warning text="signature 'operator!=(ByteArray,const char*)' for function modification in 'ByteArray' not found." />
+    <suppress-warning text="signature 'operator+(ByteArray,const char*)' for function modification in 'ByteArray' not found." />
+    <suppress-warning text="signature 'operator==(ByteArray,const char*)' for function modification in 'ByteArray' not found." />
+</typesystem>

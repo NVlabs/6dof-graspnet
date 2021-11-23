@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="750"
+   height="230"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="dependency-apiextractor.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/tmp/dependency-pyside.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3270"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3679"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6315754"
+     inkscape:cx="375"
+     inkscape:cy="115"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1278"
+     inkscape:window-height="949"
+     inkscape:window-x="1330"
+     inkscape:window-y="25">
+    <sodipodi:guide
+       orientation="1,0"
+       position="384.28571,590"
+       id="guide2601" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="678.57143,491.42857"
+       id="guide2603" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="78.571429,257.14286"
+       id="guide2605" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="93.571429,280.71429"
+       id="guide7565" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="148.57143,216.42857"
+       id="guide7567" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-250.44576,-308.53365)" />
+  <g
+     id="g2664"
+     transform="translate(-162.03535,-115.53321)">
+    <path
+       inkscape:connector-type="polyline"
+       id="path2869"
+       d="M 439.27375,270.21407 L 594.99083,193.03351"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <g
+       transform="translate(166.24286,-190.07976)"
+       id="g2606">
+      <rect
+         style="fill:#e3e2db;stroke:#000000;stroke-opacity:1"
+         id="rect7541"
+         width="211.42857"
+         height="124.28571"
+         x="6.6142678"
+         y="308.16089"
+         ry="17.142857" />
+      <text
+         xml:space="preserve"
+         style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="76.614265"
+         y="339.74512"
+         id="text7543"><tspan
+           sodipodi:role="line"
+           id="tspan7545"
+           x="76.614265"
+           y="339.74512">Boost</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="76.614265"
+         y="372.67505"
+         id="text7547"><tspan
+           sodipodi:role="line"
+           id="tspan7549"
+           x="76.614265"
+           y="372.67505">Qt Software</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="76.614265"
+         y="408.38055"
+         id="text7551"><tspan
+           sodipodi:role="line"
+           id="tspan7553"
+           x="76.614265"
+           y="408.38055">INdT/Nokia</tspan></text>
+      <rect
+         style="fill:#aaeeff;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1"
+         id="rect7555"
+         width="43.163269"
+         height="22.5"
+         x="21.614267"
+         y="321.55374"
+         ry="6.4285707" />
+      <rect
+         style="fill:#b3ff80;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1"
+         id="rect7561"
+         width="43.163269"
+         height="22.5"
+         x="21.614267"
+         y="355.4823"
+         ry="6.4285707" />
+      <rect
+         style="fill:#e9ddaf;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1"
+         id="rect7563"
+         width="43.163269"
+         height="22.5"
+         x="21.614267"
+         y="390.4823"
+         ry="6.4285707" />
+    </g>
+    <path
+       inkscape:connector-type="polyline"
+       id="path2604"
+       d="M 782.79015,270.0418 L 627.07307,192.86124"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <g
+       transform="translate(234.84929,-73.143707)"
+       id="g5193">
+      <rect
+         ry="9.2689295"
+         style="fill:#b3ff80;fill-rule:evenodd;stroke:#2a7800;stroke-width:0.96558368px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect2417"
+         width="274.18781"
+         height="73.282379"
+         x="78.571426"
+         y="342.86383"
+         rx="8.3239012" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="88.822823"
+         y="359.67014"
+         id="text2419"><tspan
+           sodipodi:role="line"
+           id="tspan2421"
+           x="88.822823"
+           y="359.67014">Qt 4.5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="88.822823"
+         y="375.33484"
+         id="text2423"><tspan
+           sodipodi:role="line"
+           id="tspan2425"
+           x="88.822823"
+           y="375.33484">4.5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="88.822823"
+         y="390.87479"
+         id="text2427"><tspan
+           sodipodi:role="line"
+           id="tspan2429"
+           x="88.822823"
+           y="390.87479">headers and libraries - compile-time and run-time</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="88.822823"
+         y="400.84058"
+         id="text2431"><tspan
+           sodipodi:role="line"
+           id="tspan2433"
+           x="88.822823"
+           y="400.84058">GNU General Public License v3 /</tspan><tspan
+           id="tspan2472"
+           sodipodi:role="line"
+           x="88.822823"
+           y="411.1687">GNU Lesser General Public Licence v2.1</tspan></text>
+    </g>
+    <g
+       transform="translate(101.41581,-378.37135)"
+       id="g5120">
+      <rect
+         rx="10.404889"
+         ry="13.104635"
+         style="fill:#e9ddaf;fill-rule:evenodd;stroke:#5f5019;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect2441"
+         width="274.54263"
+         height="73.281754"
+         x="384.28571"
+         y="496.43558" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="513.59869"
+         id="text2443"><tspan
+           sodipodi:role="line"
+           id="tspan2445"
+           x="389.17969"
+           y="513.59869">libapiextractor</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="529.26337"
+         id="text2447"><tspan
+           sodipodi:role="line"
+           id="tspan2449"
+           x="389.17969"
+           y="529.26337">0.2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="544.80334"
+         id="text2451"><tspan
+           sodipodi:role="line"
+           x="389.17969"
+           y="544.80334"
+           id="tspan2453">headers and libraries - compile-time and run-time</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="560.12628"
+         id="text2455"><tspan
+           sodipodi:role="line"
+           id="tspan2457"
+           x="389.17969"
+           y="560.12628">LGPL version 2.1</tspan></text>
+    </g>
+    <g
+       transform="translate(242.40213,-378.858)"
+       id="g5182">
+      <rect
+         ry="11.287985"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:#006078;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="rect2563"
+         width="274.54263"
+         height="73.281754"
+         x="384.28571"
+         y="648.57843"
+         rx="10.404877" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="665.74158"
+         id="text2565"><tspan
+           sodipodi:role="line"
+           id="tspan2567"
+           x="389.17969"
+           y="665.74158">boost::graph</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="681.40625"
+         id="text2569"><tspan
+           sodipodi:role="line"
+           id="tspan2571"
+           x="389.17969"
+           y="681.40625">1.38.0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="696.94623"
+         id="text2573"><tspan
+           sodipodi:role="line"
+           x="389.17969"
+           y="696.94623"
+           id="tspan2575">headers and libraries - compile-time and run-time</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="389.17969"
+         y="712.26917"
+         id="text2577"><tspan
+           sodipodi:role="line"
+           id="tspan2579"
+           x="389.17969"
+           y="712.26917">Boost Software License 1.0</tspan></text>
+    </g>
+  </g>
+</svg>

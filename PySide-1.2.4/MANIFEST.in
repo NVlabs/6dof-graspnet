@@ -1,0 +1,44 @@
+#
+# MANIFEST.in
+#
+# Manifest template for creating the PySide source distribution.
+
+include MANIFEST.in
+include CHANGES.rst
+include README.rst
+include ez_setup.py
+include setup.py
+include popenasync.py
+include qtinfo.py
+include utils.py
+
+# sources
+recursive-include sources/patchelf **
+recursive-include sources/shiboken **
+recursive-include sources/pyside **
+recursive-include sources/pyside-tools **
+recursive-include sources/pyside-examples **
+recursive-exclude sources/pyside-examples/examples/hyperui **
+recursive-exclude sources/pyside-examples/mobility **
+# ignore .git
+recursive-exclude sources/shiboken/.git **
+recursive-exclude sources/pyside/.git **
+recursive-exclude sources/pyside-tools/.git **
+recursive-exclude sources/pyside-examples/.git **
+
+# PySide package
+recursive-include pyside_package/PySide **
+recursive-include pyside_package/PySide/docs **
+recursive-include pyside_package/PySide/plugins **
+recursive-include pyside_package/PySide/imports **
+recursive-include pyside_package/PySide/translations **
+recursive-include pyside_package/PySide/include **
+recursive-include pyside_package/PySide/typesystems **
+recursive-include pyside_package/PySide/examples **
+
+# pysideuic package
+recursive-include pyside_package/pysideuic **
+recursive-include pyside_package/pysideuic/Compiler **
+recursive-include pyside_package/pysideuic/port_v2 **
+recursive-include pyside_package/pysideuic/port_v3 **
+recursive-include pyside_package/pysideuic/widget-plugins **

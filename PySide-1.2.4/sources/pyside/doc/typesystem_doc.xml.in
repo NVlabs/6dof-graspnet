@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!--
+    This file is part of PySide project.
+    Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+    Contact: PySide team <contact@pyside.org>
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+-->
+<typesystem package="PySide">
+    <suppress-warning text="File containing conversion code for *" />
+    <suppress-warning text="File for inject code not exist: *" />
+
+    <load-typesystem name="typesystem_core.xml" generate="yes"/>
+
+    @if_QtNetwork@
+    <load-typesystem name="typesystem_network.xml" generate="yes" />
+    @end_QtNetwork@
+
+    @if_QtXml@
+    <load-typesystem name="typesystem_xml.xml" generate="yes" />
+    @end_QtXml@
+
+    @if_QtScript@
+    <load-typesystem name="typesystem_script.xml" generate="yes" />
+    @end_QtScript@
+
+    @if_QtGui@
+    <load-typesystem name="typesystem_gui.xml" generate="yes"/>
+    @end_QtGui@
+
+    @if_QtHelp@
+    <load-typesystem name="typesystem_help.xml" generate="yes" />
+    @end_QtHelp@
+
+    @if_Maemo5@
+    <load-typesystem name="typesystem_maemo5.xml" generate="yes" />
+    @end_Maemo5@
+
+    @if_QtMultimedia@
+    <load-typesystem name="typesystem_multimedia.xml" generate="yes" />
+    @end_QtMultimedia@
+
+    @if_QtDeclarative@
+    <load-typesystem name="typesystem_declarative.xml" generate="yes"/>
+    @end_QtDeclarative@
+
+    @if_QtOpenGL@
+    <load-typesystem name="typesystem_opengl.xml" generate="yes" />
+    @end_QtOpenGL@
+
+    @if_QtScriptTools@
+    <load-typesystem name="typesystem_scripttools.xml" generate="yes" />
+    @end_QtScriptTools@
+
+    @if_QtSql@
+    <load-typesystem name="typesystem_sql.xml" generate="yes" />
+    @end_QtSql@
+
+    @if_QtSvg@
+    <load-typesystem name="typesystem_svg.xml" generate="yes" />
+    @end_QtSvg@
+
+    @if_QtTest@
+    <load-typesystem name="typesystem_test.xml" generate="yes" />
+    @end_QtTest@
+
+    @if_QtUiTools@
+    <load-typesystem name="typesystem_uitools.xml" generate="yes" />
+    @end_QtUiTools@
+
+    @if_QtWebKit@
+    <load-typesystem name="typesystem_webkit.xml" generate="yes" />
+    @end_QtWebKit@
+
+
+    @if_QtXmlPatterns@
+    <load-typesystem name="typesystem_xmlpatterns.xml" generate="yes" />
+    @end_QtXmlPatterns@
+
+    @if_phonon@
+    <load-typesystem name="typesystem_phonon.xml" generate="yes" />
+    @end_phonon@
+
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix4x3, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix4x3.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix3x4, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix3x4.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix2x3, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix2x3.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix4x2, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix4x2.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix3x3, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix3x3.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix2x2, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix2x2.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix3x2, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix3x2.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class QMatrix2x4, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/qmatrix2x4.xml" />
+
+    <!-- These classes are documented in ObjectDescription<T> or other base template class -->
+    <suppress-warning text="Can't find qdoc3 file for class AudioCaptureDevice, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-audiocapturedevice.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class VideoCaptureDevice, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-videocapturedevice.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class AudioOutputDevice, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-audiooutputdevice.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class AudioChannelDescription, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-audiochanneldescription.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class EffectDescription, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-effectdescription.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class SubtitleDescription, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-subtitledescription.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class EffectDescriptionModel, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-effectdescriptionmodel.xml" />
+    <suppress-warning text="Can't find qdoc3 file for class AudioOutputDeviceModel, tried: /home/hugo/src/pyside/build/doc/qdoc3-output/phonon-audiooutputdevicemodel.xml" />
+</typesystem>

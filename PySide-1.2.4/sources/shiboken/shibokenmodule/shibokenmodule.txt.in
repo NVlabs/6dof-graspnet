@@ -1,0 +1,16 @@
+[generator-project]
+
+generator-set = shiboken
+
+header-file = @CMAKE_CURRENT_SOURCE_DIR@/nothing.h
+typesystem-file = @CMAKE_CURRENT_SOURCE_DIR@/typesystem_shiboken.xml
+
+output-directory = @CMAKE_CURRENT_BINARY_DIR@
+
+# include-path = @libsample_SOURCE_DIR@
+
+typesystem-path = @CMAKE_CURRENT_SOURCE_DIR@
+
+avoid-protected-hack
+#enable-parent-ctor-heuristic
+#use-isnull-as-nb_nonzero

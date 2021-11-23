@@ -1,0 +1,15 @@
+.. _gen-overview:
+
+**********************
+API Extractor Overview
+**********************
+
+The **API Extractor** library is used by the binding generator to parse headers
+of a given library and merge this data with information provided by
+typesystem (XML) files, resulting in a representation of how the API should be
+exported to the chosen target language. The generation of source code for the
+bindings is performed by specific generators using the API Extractor library.
+
+The API Extractor is based on QtScriptGenerator_ codebase.
+
+.. _QtScriptGenerator: http://labs.trolltech.com/page/Projects/QtScript/Generator

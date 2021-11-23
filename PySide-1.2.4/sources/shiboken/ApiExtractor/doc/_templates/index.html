@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% set title = 'Overview' %}
+{% block body %}
+<div class="section">
+  <h1>API Extractor {{ version }}</h1>
+
+    <p>API Extractor is a tool that eases the development of bindings of Qt-based libraries for high
+    level languages by automating most of the process.
+
+    <p>API Extractor is based on the
+    <a href="http://labs.trolltech.com/page/Projects/QtScript/Generator">QtScriptGenerator</a> project.</p>
+
+  <h2>Documentation</h2>
+  <table class="contentstable"><tr>
+    <td width="50%">
+      <p class="biglink"><a href="{{ pathto("overview") }}">Overview</a><br/>
+         <span class="linkdescr">how API Extractor works</span></p>
+      <p class="biglink"><a href="{{ pathto("typesystem") }}">Typesystem reference</a><br/>
+         <span class="linkdescr">reference for all typesystem tags</span></p>
+    </td>
+    <td width="50%">
+      <p class="biglink"><a href="{{ pathto("contents") }}">Contents</a><br/>
+         <span class="linkdescr">for a complete overview</span></p>
+    </td></tr>
+  </table>
+</div>
+{% endblock %}

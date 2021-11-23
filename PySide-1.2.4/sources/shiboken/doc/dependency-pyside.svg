@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="900"
+   height="560"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="dependency-pyside.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/tmp/dependency-pyside.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3270"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3679"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.79440331"
+     inkscape:cx="-36.66006"
+     inkscape:cy="372.04724"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1278"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <sodipodi:guide
+       orientation="1,0"
+       position="384.28571,590"
+       id="guide2601" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="678.57143,491.42857"
+       id="guide2603" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="78.571429,257.14286"
+       id="guide2605" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="93.571429,280.71429"
+       id="guide7565" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="148.57143,216.42857"
+       id="guide7567" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-78.088635,-190.95252)" />
+  <g
+     id="g5394"
+     transform="translate(6.1314759,14.304617)">
+    <g
+       transform="translate(-65.84289,-190.95252)"
+       id="g5205">
+      <g
+         id="g5171">
+        <rect
+           rx="9.3643799"
+           y="338.7739"
+           x="678.57141"
+           height="73.281754"
+           width="274.54263"
+           id="rect2393"
+           style="fill:#aaeeff;fill-rule:evenodd;stroke:#006078;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="13.104657" />
+        <text
+           id="text2395"
+           y="355.93701"
+           x="683.46539"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="355.93701"
+             x="683.46539"
+             id="tspan2397"
+             sodipodi:role="line">boost::python</tspan></text>
+        <text
+           id="text2399"
+           y="371.60172"
+           x="683.46539"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="371.60172"
+             x="683.46539"
+             id="tspan2401"
+             sodipodi:role="line">1.38.0</tspan></text>
+        <text
+           id="text2403"
+           y="387.14166"
+           x="683.46539"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             id="tspan2435"
+             y="387.14166"
+             x="683.46539"
+             sodipodi:role="line">headers and libraries - compile-time and run-time</tspan></text>
+        <text
+           id="text2413"
+           y="402.4646"
+           x="683.46539"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="402.4646"
+             x="683.46539"
+             id="tspan2415"
+             sodipodi:role="line">Boost Software License 1.0</tspan></text>
+      </g>
+      <g
+         id="g5193">
+        <rect
+           rx="8.3239012"
+           y="342.86383"
+           x="78.571426"
+           height="73.282379"
+           width="274.18781"
+           id="rect2417"
+           style="fill:#b3ff80;fill-rule:evenodd;stroke:#2a7800;stroke-width:0.96558368px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="9.2689295" />
+        <text
+           id="text2419"
+           y="359.67014"
+           x="88.822823"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="359.67014"
+             x="88.822823"
+             id="tspan2421"
+             sodipodi:role="line">Qt 4.5</tspan></text>
+        <text
+           id="text2423"
+           y="375.33484"
+           x="88.822823"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="375.33484"
+             x="88.822823"
+             id="tspan2425"
+             sodipodi:role="line">4.5</tspan></text>
+        <text
+           id="text2427"
+           y="390.87479"
+           x="88.822823"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="390.87479"
+             x="88.822823"
+             id="tspan2429"
+             sodipodi:role="line">headers and libraries - compile-time and run-time</tspan></text>
+        <text
+           id="text2431"
+           y="400.84058"
+           x="88.822823"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="400.84058"
+             x="88.822823"
+             id="tspan2433"
+             sodipodi:role="line">GNU General Public License v3 /</tspan><tspan
+             y="411.1687"
+             x="88.822823"
+             sodipodi:role="line"
+             id="tspan2472">GNU Lesser General Public Licence v2.1</tspan></text>
+      </g>
+      <g
+         id="g5120">
+        <rect
+           y="496.43558"
+           x="384.28571"
+           height="73.281754"
+           width="274.54263"
+           id="rect2441"
+           style="fill:#e9ddaf;fill-rule:evenodd;stroke:#5f5019;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="13.104635"
+           rx="10.404889" />
+        <text
+           id="text2443"
+           y="513.59869"
+           x="389.17969"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="513.59869"
+             x="389.17969"
+             id="tspan2445"
+             sodipodi:role="line">libapiextractor</tspan></text>
+        <text
+           id="text2447"
+           y="529.26337"
+           x="389.17969"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="529.26337"
+             x="389.17969"
+             id="tspan2449"
+             sodipodi:role="line">0.1</tspan></text>
+        <text
+           id="text2451"
+           y="544.80334"
+           x="389.17969"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             id="tspan2453"
+             y="544.80334"
+             x="389.17969"
+             sodipodi:role="line">headers and libraries - compile-time and run-time</tspan></text>
+        <text
+           id="text2455"
+           y="560.12628"
+           x="389.17969"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="560.12628"
+             x="389.17969"
+             id="tspan2457"
+             sodipodi:role="line">LGPL version 2.1</tspan></text>
+      </g>
+      <g
+         id="g5131">
+        <rect
+           y="340.72134"
+           x="384.28571"
+           height="73.281754"
+           width="274.54263"
+           id="rect2459"
+           style="fill:#e9ddaf;fill-rule:evenodd;stroke:#5f5019;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="10.309408"
+           rx="9.3644047" />
+        <text
+           id="text2461"
+           y="357.88449"
+           x="389.17969"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="357.88449"
+             x="389.17969"
+             id="tspan2463"
+             sodipodi:role="line">BoostPythonGenerator</tspan></text>
+        <text
+           id="text2465"
+           y="373.54916"
+           x="389.17969"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="373.54916"
+             x="389.17969"
+             id="tspan2467"
+             sodipodi:role="line">0.1</tspan></text>
+        <text
+           id="text2469"
+           y="389.08914"
+           x="389.17969"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             id="tspan2471"
+             y="389.08914"
+             x="389.17969"
+             sodipodi:role="line">Binary executable - compile-time</tspan></text>
+        <text
+           id="text2473"
+           y="404.41208"
+           x="389.17969"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="404.41208"
+             x="389.17969"
+             id="tspan2475"
+             sodipodi:role="line">LGPL version 2.1</tspan></text>
+      </g>
+      <g
+         id="g5142">
+        <rect
+           y="191.43562"
+           x="384.28571"
+           height="73.281754"
+           width="274.54263"
+           id="rect2523"
+           style="fill:#e9ddaf;fill-opacity:1;fill-rule:evenodd;stroke:#5f5019;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="14.285714" />
+        <text
+           id="text2525"
+           y="208.59874"
+           x="389.17966"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="208.59874"
+             x="389.17966"
+             id="tspan2527"
+             sodipodi:role="line">Qt Python bindings</tspan></text>
+        <text
+           id="text2529"
+           y="224.26344"
+           x="389.17966"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="224.26344"
+             x="389.17966"
+             id="tspan2531"
+             sodipodi:role="line">0.1</tspan></text>
+        <text
+           id="text2533"
+           y="239.80339"
+           x="389.17966"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             id="tspan2535"
+             y="239.80339"
+             x="389.17966"
+             sodipodi:role="line">Target</tspan></text>
+        <text
+           id="text2537"
+           y="255.12633"
+           x="389.17966"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="255.12633"
+             x="389.17966"
+             id="tspan2539"
+             sodipodi:role="line">LGPL version 2.1</tspan></text>
+      </g>
+      <g
+         id="g5182">
+        <rect
+           rx="10.404877"
+           y="648.57843"
+           x="384.28571"
+           height="73.281754"
+           width="274.54263"
+           id="rect2563"
+           style="fill:#aaeeff;fill-rule:evenodd;stroke:#006078;stroke-width:0.96620417px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           ry="11.287985" />
+        <text
+           id="text2565"
+           y="665.74158"
+           x="389.17969"
+           style="font-size:16.27989578px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="665.74158"
+             x="389.17969"
+             id="tspan2567"
+             sodipodi:role="line">boost::graph</tspan></text>
+        <text
+           id="text2569"
+           y="681.40625"
+           x="389.17969"
+           style="font-size:8.40044498px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="681.40625"
+             x="389.17969"
+             id="tspan2571"
+             sodipodi:role="line">1.38.0</tspan></text>
+        <text
+           id="text2573"
+           y="696.94623"
+           x="389.17969"
+           style="font-size:9.33067703px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             id="tspan2575"
+             y="696.94623"
+             x="389.17969"
+             sodipodi:role="line">headers and libraries - compile-time and run-time</tspan></text>
+        <text
+           id="text2577"
+           y="712.26917"
+           x="389.17969"
+           style="font-size:8.26250458px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="712.26917"
+             x="389.17969"
+             id="tspan2579"
+             sodipodi:role="line">Boost Software License 1.0</tspan></text>
+      </g>
+    </g>
+    <path
+       inkscape:connector-type="polyline"
+       id="path2869"
+       d="M 212.85114,151.42852 L 368.56822,74.247959"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path2871"
+       d="M 663.60462,147.33826 L 517.61788,74.247959"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path2877"
+       d="M 443.4684,149.28571 L 443.46839,74.247959"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path2879"
+       d="M 443.4684,304.99994 L 443.4684,223.53367"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-end:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path2881"
+       d="M 443.4684,457.14279 L 443.4684,379.2479"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:none;stroke-opacity:1" />
+    <rect
+       ry="17.142857"
+       y="293.85626"
+       x="0.48279184"
+       height="124.28571"
+       width="211.42857"
+       id="rect7541"
+       style="fill:#e3e2db;stroke:#000000;stroke-opacity:1" />
+    <text
+       id="text7543"
+       y="325.44049"
+       x="70.482788"
+       style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="325.44049"
+         x="70.482788"
+         id="tspan7545"
+         sodipodi:role="line">Boost</tspan></text>
+    <text
+       id="text7547"
+       y="358.37042"
+       x="70.482788"
+       style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="358.37042"
+         x="70.482788"
+         id="tspan7549"
+         sodipodi:role="line">Qt Software</tspan></text>
+    <text
+       id="text7551"
+       y="394.07593"
+       x="70.482788"
+       style="font-size:20.61732101px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="394.07593"
+         x="70.482788"
+         id="tspan7553"
+         sodipodi:role="line">INdT/Nokia</tspan></text>
+    <rect
+       ry="6.4285707"
+       y="307.24911"
+       x="15.482792"
+       height="22.5"
+       width="43.163269"
+       id="rect7555"
+       style="fill:#aaeeff;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1" />
+    <rect
+       ry="6.4285707"
+       y="341.17767"
+       x="15.482792"
+       height="22.5"
+       width="43.163269"
+       id="rect7561"
+       style="fill:#b3ff80;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1" />
+    <rect
+       ry="6.4285707"
+       y="376.17767"
+       x="15.482792"
+       height="22.5"
+       width="43.163269"
+       id="rect7563"
+       style="fill:#e9ddaf;fill-opacity:1;stroke:#000000;stroke-width:0.64285713;stroke-opacity:1" />
+  </g>
+</svg>

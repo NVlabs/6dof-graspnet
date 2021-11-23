@@ -1,0 +1,14 @@
+digraph Conversions {
+    rankdir=LR
+    CppType1 [ label="C++\nType" ]
+    Converter1 [ label="Converter\nPython -> C++", shape=hexagon ]
+    PythonType1 -> Converter1
+    PythonType2 -> Converter1
+    PythonType3 -> Converter1
+    Converter1 -> CppType1
+
+    CppType2 [ label="C++\nType" ]
+    PythonType4 [ label="PythonType" ]
+    Converter2 [ label="Converter\nPython -> C++", shape=hexagon ]
+    CppType2 -> Converter2 -> PythonType4
+}

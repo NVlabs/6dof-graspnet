@@ -1,0 +1,5 @@
+<RCC>
+  <qresource>
+    <file alias="image">document-print-preview.png</file>
+  </qresource>
+</RCC>

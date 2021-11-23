@@ -106,7 +106,7 @@ def main(args):
     estimator.build_network()
     estimator.load_weights(sess)
 
-    for npy_file in glob.glob(os.path.join(args.npy_folder, '*.npy')):
+    for npy_file in glob.glob(os.path.join(args.npy_folder, '*.npy')): #npy: numpy array file 
         print(npy_file)
         # Depending on your numpy version you may need to change allow_pickle
         # from True to False.

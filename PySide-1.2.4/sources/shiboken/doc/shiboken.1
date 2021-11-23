@@ -1,0 +1,73 @@
+.TH SHIBOKEN "1" "March 2010" "shiboken v0.2.0" "User Commands"
+.SH NAME
+shiboken \- CPython bindings generator for C++ libraries
+.SH DESCRIPTION
+.SS "Usage:"
+.IP
+shiboken [options] header\-file typesystem\-file
+.SS "General options:"
+.TP
+\fB\-\-debug\-level\fR=\fI[sparse\fR|medium|full]
+Set the debug level
+.TP
+\fB\-\-documentation\-only\fR
+Do not generates any code, just the documentation
+.TP
+\fB\-\-generatorSet\fR
+generatorSet to be used. e.g. qtdoc
+.TP
+\fB\-\-help\fR
+Display this help and exit
+.TP
+\fB\-\-include\-paths=\fR<path>[:<path>:...]
+Include paths used by the C++ parser
+.TP
+\fB\-\-license\-file\fR=\fI[licensefile]\fR
+File used for copyright headers of generated files
+.TP
+\fB\-\-no\-suppress\-warnings\fR
+Show all warnings
+.TP
+\fB\-\-output\-directory\fR=\fI[dir]\fR
+The directory where the generated files will be written
+.TP
+\fB\-\-silent\fR
+Avoid printing any message
+.TP
+\fB\-\-typesystem\-paths=\fR<path>[:<path>:...]
+Paths used when searching for typesystems
+.TP
+\fB\-\-version\fR
+Output version information and exit
+.SS "Shiboken options:"
+.TP
+\fB\-\-disable\-verbose\-error\-messages\fR
+Disable verbose error messages. Turn the python code hard to debug but safe few kB on the generated bindings.
+.TP
+\fB\-\-enable\-parent\-ctor\-heuristic\fR
+Enable heuristics to detect parent relationship on constructors.
+.TP
+\fB\-\-enable\-pyside\-extensions\fR
+Enable PySide extensions, such as support for signal/slots, use this if you are creating a binding for a Qt\-based library.
+.TP
+\fB\-\-enable\-return\-value\-heuristic\fR
+Enable heuristics to detect parent relationship on return values (USE WITH CAUTION!)
+.SS "Shiboken options:"
+.TP
+\fB\-\-disable\-verbose\-error\-messages\fR
+Disable verbose error messages. Turn the python code hard to debug but safe few kB on the generated bindings.
+.TP
+\fB\-\-enable\-parent\-ctor\-heuristic\fR
+Enable heuristics to detect parent relationship on constructors.
+.TP
+\fB\-\-enable\-pyside\-extensions\fR
+Enable PySide extensions, such as support for signal/slots, use this if you are creating a binding for a Qt\-based library.
+.TP
+\fB\-\-enable\-return\-value\-heuristic\fR
+Enable heuristics to detect parent relationship on return values (USE WITH CAUTION!)
+.SH COPYRIGHT
+Copyright \(co 2009\-2010 Nokia Corporation and/or its subsidiary(\fB\-ies\fR)
+.SH AUTHOR
+.PP
+This manpage was written for Debian, starting with a help2man output, by
+Didier Raboud <didier@raboud.com>, on the 26. March 2010.
