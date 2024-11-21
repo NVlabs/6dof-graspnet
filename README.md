@@ -25,7 +25,7 @@ rm tensorflow-1.12.0.a6d8ffa.AVX2.CUDA10-cp27-cp27mu-linux_x86_64.whl
 
 7) Build the tf_ops using `sh compile_pointnet_tfops.sh`.
 
-8) Download the checkpoints to the `checkpoints` folder. Trained checkpoints are released under [CC-BY-NC-SA 2.0](TRAINED_MODEL_LICENSE) and can be downloaded from [here](https://drive.google.com/drive/folders/1mVX2kqXg9BZ22y3HEyqta20tiQrL8OK_?usp=sharing). **The checkpoints of the models trained on [ACRONYM Dataset](https://sites.google.com/nvidia.com/graspdataset) are uploaded.**
+8) Download the checkpoints to the `checkpoints` folder. Trained checkpoints are released under [CC-BY-NC-SA 2.0](TRAINED_MODEL_LICENSE) and can be downloaded from [here](https://drive.google.com/drive/folders/1DMYCz_-RoSZxGtydblpkSMHB9DTCIrkt?usp=sharing). **The checkpoints of the models trained on [ACRONYM Dataset](https://github.com/NVlabs/acronym) are uploaded.**
 
 
 ## Demo
