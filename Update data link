@@ -55,7 +55,7 @@ Download the meshes with ids written in [shapenet_ids.txt](shapenet_ids.txt) fro
 3. Simplify it: `simplify -i temp.watertight.obj -o model.obj -m -r 0.02`
 
 ### Download the dataset:
-The dataset can be downloaded from [here](https://drive.google.com/open?id=1GkFrkvpP-R1letnv6rt_WLSX80o43Jjm). The dataset has 3 folders:
+The dataset can be downloaded from [here](https://drive.google.com/file/d/1ej56JIy7K7yNAck2nIY4XHnh2v-JpPua/view?usp=sharing). The dataset has 3 folders:
 1) `grasps` folder: contains all the grasps for each object.
 2) `meshes` folder: has the folder for all the meshes used. Except `cylinder` and `box` the rest of the folders are empty and need to be populated by the downloaded meshes from shapenet.
 3) `splits` folder: contains the train/test split for each of the categories.
